@@ -15,14 +15,6 @@ public class NewStampPlacement : MonoBehaviour
             Instance = this;
         }
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GenerateRandomStampPlace();
-        }
-    }
     public void GenerateRandomStampPlace()
     {
         if (stampPlace != null)
