@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl1.unity
     guid: d2be6e0eeb51a4e449326f860e98f5a6
+  - enabled: 1
+    path: Assets/Scenes/RizzLevel.unity
+    guid: f2cf59e48aa201e4eb8b74877013f3be
+  - enabled: 1
+    path: Assets/Scenes/lvl25.unity
+    guid: 276d4dc9dfe95cf4e87d0e780b147e67
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
