@@ -1,0 +1,534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7971902911443458561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Old Man Walking
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Old Man Walking
+  Guid:
+    Data1: -289387286
+    Data2: 1318132358
+    Data3: 1622548901
+    Data4: 664822873
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42096
+--- !u!114 &-7960405500699031427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Stool moving
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Stool moving
+  Guid:
+    Data1: -1904992341
+    Data2: 1259140032
+    Data3: -1617286495
+    Data4: 1957268701
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11568
+--- !u!114 &-6791658206430459451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/StampSound
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/StampSound
+  Guid:
+    Data1: 1270605625
+    Data2: 1231361071
+    Data3: 2798502
+    Data4: 191672479
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1156
+--- !u!114 &-6408137930523384441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Angry Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Angry Teacher
+  Guid:
+    Data1: 764765650
+    Data2: 1169919813
+    Data3: -1175682431
+    Data4: 61234806
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1248
+--- !u!114 &-6169610939642085680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicBaby
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicBaby
+  Guid:
+    Data1: 40097110
+    Data2: 1288102443
+    Data3: 962280090
+    Data4: -79742117
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 76672
+--- !u!114 &-3414860538028672090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/School music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/School music
+  Guid:
+    Data1: 455824273
+    Data2: 1162300766
+    Data3: 1031310986
+    Data4: 923515426
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 81000
+--- !u!114 &-3072375499124879976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638746107240224906
+  FileSizes:
+  - Name: Desktop
+    Value: 1524
+  Exists: 1
+--- !u!114 &-2651064223314455089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Crying Baby
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Crying Baby
+  Guid:
+    Data1: -113250552
+    Data2: 1084875112
+    Data3: -638538568
+    Data4: -2015739872
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9360
+--- !u!114 &-2315398672533152235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Woman Neutral
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Woman Neutral
+  Guid:
+    Data1: 1762731651
+    Data2: 1243788515
+    Data3: -2123584077
+    Data4: 1397170585
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-1915998144643204570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/WomanUnhappy
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/WomanUnhappy
+  Guid:
+    Data1: 848527084
+    Data2: 1180107873
+    Data3: -1937387871
+    Data4: -1594434714
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2115
+--- !u!114 &-1761270407572443568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicRizzing
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicRizzing
+  Guid:
+    Data1: 461179855
+    Data2: 1196028434
+    Data3: 604310452
+    Data4: 1526691186
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128000
+--- !u!114 &-1527543700101034859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music Child Feeding
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music Child Feeding
+  Guid:
+    Data1: 1342258640
+    Data2: 1180104088
+    Data3: 836260266
+    Data4: -459034661
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3072375499124879976}
+  - {fileID: 3461119030164789506}
+  - {fileID: 4861098903532656256}
+  EditorEvents:
+  - {fileID: 6051310715801953843}
+  - {fileID: -2651064223314455089}
+  - {fileID: 2505234780258419232}
+  - {fileID: 7537666923573757874}
+  - {fileID: -6791658206430459451}
+  - {fileID: 5354180117535890283}
+  - {fileID: -6169610939642085680}
+  - {fileID: -2315398672533152235}
+  - {fileID: -3414860538028672090}
+  - {fileID: 1612078732475995782}
+  - {fileID: -7960405500699031427}
+  - {fileID: -1761270407572443568}
+  - {fileID: -1527543700101034859}
+  - {fileID: -6408137930523384441}
+  - {fileID: -7971902911443458561}
+  - {fileID: -1915998144643204570}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 4861098903532656256}
+  StringsBanks:
+  - {fileID: -3072375499124879976}
+  cacheTime: 638746181573235531
+  cacheVersion: 131622
+--- !u!114 &1612078732475995782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicWork
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicWork
+  Guid:
+    Data1: 409603752
+    Data2: 1295298785
+    Data3: -1917141061
+    Data4: -1874118827
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 82588
+--- !u!114 &2505234780258419232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/WritingSound
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/WritingSound
+  Guid:
+    Data1: 1873223706
+    Data2: 1272641737
+    Data3: -1329352790
+    Data4: 1222431563
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30024
+--- !u!114 &3461119030164789506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/levels.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music/Build/Desktop/levels.bank
+  Name: levels
+  StudioPath: bank:/levels
+  lastModified: 638746181573235531
+  FileSizes:
+  - Name: Desktop
+    Value: 7655968
+  Exists: 1
+--- !u!114 &4861098903532656256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638746107240199749
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &5354180117535890283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Picking Up
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Picking Up
+  Guid:
+    Data1: -398702531
+    Data2: 1081873221
+    Data3: 1993297040
+    Data4: -616754662
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1968
+--- !u!114 &6051310715801953843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/WomanHappy
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/WomanHappy
+  Guid:
+    Data1: 1679602182
+    Data2: 1201428245
+    Data3: -1461717846
+    Data4: -1835457925
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &7537666923573757874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sounds/Baby Crawling
+  m_EditorClassIdentifier: 
+  Path: event:/Sounds/Baby Crawling
+  Guid:
+    Data1: -864191695
+    Data2: 1287293079
+    Data3: -580818535
+    Data4: 1083924344
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000

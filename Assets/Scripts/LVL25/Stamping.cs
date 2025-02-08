@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class Stamping : MonoBehaviour
 {
@@ -9,7 +11,13 @@ public class Stamping : MonoBehaviour
     public float tolerance = 0.5f; // Tolerance for alignment
     private int score = 0;
     private float Distance;
+    public EventReference StampReferance;
+    private EventInstance StampInstance;
 
+    private void Start()
+    {
+        StampInstance = RuntimeManager.CreateInstance(StampReferance);
+    }
     void Update()
     {
         Distance = Mathf.Abs(hand.position.x - stampPlace.position.x);
@@ -17,8 +25,9 @@ public class Stamping : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             HandleStamp();
+            StampInstance.start();
         }
-
+        
     }
 
     void HandleStamp()
