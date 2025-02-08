@@ -16,12 +16,12 @@ public class PlayerController : MonoBehaviour
         {
             Teacher.Instance.SetPlayerIsCheating(true);
             _animator.SetTrigger("Cheating");
-            _animator.SetBool("basic", false);// Gracz œci¹ga
+            _animator.SetBool("basic", false);
         }
         else
         {
             Teacher.Instance.SetPlayerIsCheating(false);
-            _animator.SetBool("basic", true);// Gracz przesta³ œci¹gaæ
+            _animator.SetBool("basic", true);
         }
     }
 }
