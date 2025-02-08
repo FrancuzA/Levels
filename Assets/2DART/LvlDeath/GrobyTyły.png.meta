@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 72251a38b86eab34c8b792867f9c5603
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -870010543783474383
+    second: "GrobyTy\u0142y_0"
+  - first:
+      213: -8274533982921478495
+    second: "GrobyTy\u0142y_1"
+  - first:
+      213: 2390563457373138776
+    second: "GrobyTy\u0142y_2"
+  - first:
+      213: 4554513149433176805
+    second: "GrobyTy\u0142y_3"
+  - first:
+      213: 5844997357178007553
+    second: "GrobyTy\u0142y_4"
+  - first:
+      213: -6178244242635384616
+    second: "GrobyTy\u0142y_5"
+  - first:
+      213: 8703851887067031748
+    second: "GrobyTy\u0142y_6"
+  - first:
+      213: 832401760719529472
+    second: "GrobyTy\u0142y_7"
+  - first:
+      213: 2098024919999873202
+    second: "GrobyTy\u0142y_8"
+  - first:
+      213: -5942832457437046165
+    second: "GrobyTy\u0142y_9"
+  - first:
+      213: 5853135767236004634
+    second: "GrobyTy\u0142y_10"
+  - first:
+      213: -5021931261485865226
+    second: "GrobyTy\u0142y_11"
+  - first:
+      213: -699655188498118080
+    second: "GrobyTy\u0142y_12"
+  - first:
+      213: 1379300416595751031
+    second: "GrobyTy\u0142y_13"
+  - first:
+      213: -2782273048676124860
+    second: "GrobyTy\u0142y_14"
+  - first:
+      213: 4281246783512723000
+    second: "GrobyTy\u0142y_15"
+  - first:
+      213: -414324807463184822
+    second: "GrobyTy\u0142y_16"
+  - first:
+      213: -8849282452490922064
+    second: "GrobyTy\u0142y_17"
+  - first:
+      213: -4618247529657408784
+    second: "GrobyTy\u0142y_18"
+  - first:
+      213: -7347771249244776822
+    second: "GrobyTy\u0142y_19"
+  - first:
+      213: -2667722314869737343
+    second: "GrobyTy\u0142y_20"
+  - first:
+      213: -4046526450206255495
+    second: "GrobyTy\u0142y_21"
+  - first:
+      213: -2278517791217518228
+    second: "GrobyTy\u0142y_22"
+  - first:
+      213: -3320987270644774264
+    second: "GrobyTy\u0142y_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_0"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 45
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b01fa150a1de3f0800000000000000
+      internalID: -870010543783474383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_1"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 42
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae2112de23fa2d80800000000000000
+      internalID: -8274533982921478495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_2"
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 43
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f61c97cccfc2120800000000000000
+      internalID: 2390563457373138776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_3"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 24
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e26fcc1491e43f30800000000000000
+      internalID: 4554513149433176805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_4"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 58
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10031b3d02a9d1150800000000000000
+      internalID: 5844997357178007553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_5"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 58
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d89d165897724aa0800000000000000
+      internalID: -6178244242635384616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_6"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 25
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c86e322d2b4ac870800000000000000
+      internalID: 8703851887067031748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_7"
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 58
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006e81abdf84d8b00800000000000000
+      internalID: 832401760719529472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_8"
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 47
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b082868c8ead1d10800000000000000
+      internalID: 2098024919999873202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_9"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 42
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a9dcecd51d68da0800000000000000
+      internalID: -5942832457437046165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_10"
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4c3418f38a3150800000000000000
+      internalID: 5853135767236004634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_11"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6a4b000248e4ab0800000000000000
+      internalID: -5021931261485865226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_12"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 42
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a8f4020535a46f0800000000000000
+      internalID: -699655188498118080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_13"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 39
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770fcb9cb62442310800000000000000
+      internalID: 1379300416595751031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_14"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 29
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447348147616369d0800000000000000
+      internalID: -2782273048676124860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_15"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 27
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e3f0f344b0a6b30800000000000000
+      internalID: 4281246783512723000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_16"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46568568c5004af0800000000000000
+      internalID: -414324807463184822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_17"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b75e26be78013580800000000000000
+      internalID: -8849282452490922064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_18"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 19
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e1fd1750b8efb0800000000000000
+      internalID: -4618247529657408784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_19"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 11
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86dfed9af8770a90800000000000000
+      internalID: -7347771249244776822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_20"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 21
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1887ec650b85afad0800000000000000
+      internalID: -2667722314869737343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_21"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 26
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976db3902a9d7d7c0800000000000000
+      internalID: -4046526450206255495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_22"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 26
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69721814241160e0800000000000000
+      internalID: -2278517791217518228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GrobyTy\u0142y_23"
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88acf953cab79e1d0800000000000000
+      internalID: -3320987270644774264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "GrobyTy\u0142y_0": -870010543783474383
+      "GrobyTy\u0142y_1": -8274533982921478495
+      "GrobyTy\u0142y_10": 5853135767236004634
+      "GrobyTy\u0142y_11": -5021931261485865226
+      "GrobyTy\u0142y_12": -699655188498118080
+      "GrobyTy\u0142y_13": 1379300416595751031
+      "GrobyTy\u0142y_14": -2782273048676124860
+      "GrobyTy\u0142y_15": 4281246783512723000
+      "GrobyTy\u0142y_16": -414324807463184822
+      "GrobyTy\u0142y_17": -8849282452490922064
+      "GrobyTy\u0142y_18": -4618247529657408784
+      "GrobyTy\u0142y_19": -7347771249244776822
+      "GrobyTy\u0142y_2": 2390563457373138776
+      "GrobyTy\u0142y_20": -2667722314869737343
+      "GrobyTy\u0142y_21": -4046526450206255495
+      "GrobyTy\u0142y_22": -2278517791217518228
+      "GrobyTy\u0142y_23": -3320987270644774264
+      "GrobyTy\u0142y_3": 4554513149433176805
+      "GrobyTy\u0142y_4": 5844997357178007553
+      "GrobyTy\u0142y_5": -6178244242635384616
+      "GrobyTy\u0142y_6": 8703851887067031748
+      "GrobyTy\u0142y_7": 832401760719529472
+      "GrobyTy\u0142y_8": 2098024919999873202
+      "GrobyTy\u0142y_9": -5942832457437046165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
