@@ -11,8 +11,8 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText; 
     public Button[] optionButtons; 
     public Slider loveMeter; 
-    public GameController gameController; 
-
+    public GameController gameController;
+    
     
     private Dialogue currentDialogue;
     private int currentLineIndex = 0;
@@ -156,4 +156,5 @@ public class DialogueManager : MonoBehaviour
             gameController.CheckLoveMeterResult();
         }
     }
+
 }

@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using TMPro; 
-using UnityEngine.SceneManagement; 
+using TMPro;
+using FMODUnity;
+using UnityEngine.SceneManagement;
+using FMOD.Studio;
 
 public class Teacher : MonoBehaviour
 {
@@ -25,8 +27,12 @@ public class Teacher : MonoBehaviour
     private float timeUntilNextCheck = 0f; 
     private Animator teacherAnim; 
     [SerializeField] private GameObject wykrzynik;
+
+    public EventReference CoughtReferance;
+    private EventInstance CoughtInstance;
     private void Awake()
     {
+        CoughtInstance = RuntimeManager.CreateInstance(CoughtReferance);
         teacherAnim = GetComponent<Animator>();
         Instance = this;
         if (gameOverText != null)
@@ -83,7 +89,8 @@ public class Teacher : MonoBehaviour
         if (playerIsCheating)
         {
             warnings++;
-            Debug.Log($"Wykryto œci¹ganie! Ostrze¿enie #{warnings}");
+            CoughtInstance.start();
+            Debug.Log($"Wykryto ï¿½ciï¿½ganie! Ostrzeï¿½enie #{warnings}");
             UpdateWarningCounter();
 
             if (warnings >= 3)
@@ -118,7 +125,7 @@ public class Teacher : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.enabled = true; 
-            gameOverText.text = "PRZEGRA£EŒ!"; 
+            gameOverText.text = "PRZEGRAï¿½Eï¿½!"; 
         }
 
        
@@ -142,7 +149,7 @@ public class Teacher : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.enabled = true;
-            gameOverText.text = "WYGRA£EŒ!";
+            gameOverText.text = "WYGRAï¿½Eï¿½!";
         }
 
        

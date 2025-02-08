@@ -20,7 +20,7 @@ public class NewStampPlacement : MonoBehaviour
         if (stampPlace != null)
         {
             float randomX = Random.Range(minX, maxX);
-            stampPlace.position = new Vector3(randomX, stampPlace.position.y, stampPlace.position.z);
+            stampPlace.localPosition = new Vector3(randomX, stampPlace.position.y + 0.235f, stampPlace.position.z);
         }
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PickableObject : MonoBehaviour
 {
@@ -8,7 +9,6 @@ public class PickableObject : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("player entered ");
             EtoPick.SetActive(true);
             CanPickUp = true;
         }
@@ -27,6 +27,7 @@ public class PickableObject : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && CanPickUp)
         {
             gameObject.SetActive(false);
+            SceneManager.LoadScene(2);
         }
     }
 }
