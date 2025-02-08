@@ -177,10 +177,10 @@ MonoBehaviour:
   Path: Assets/Music/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638746107240224906
+  lastModified: 638746540159898531
   FileSizes:
   - Name: Desktop
-    Value: 1524
+    Value: 1572
   Exists: 1
 --- !u!114 &-2651064223314455089
 MonoBehaviour:
@@ -350,12 +350,13 @@ MonoBehaviour:
   - {fileID: -6408137930523384441}
   - {fileID: -7971902911443458561}
   - {fileID: -1915998144643204570}
+  - {fileID: 8467431579201574904}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4861098903532656256}
   StringsBanks:
   - {fileID: -3072375499124879976}
-  cacheTime: 638746181573235531
+  cacheTime: 638746548266433163
   cacheVersion: 131622
 --- !u!114 &1612078732475995782
 MonoBehaviour:
@@ -426,10 +427,10 @@ MonoBehaviour:
   Path: Assets/Music/Build/Desktop/levels.bank
   Name: levels
   StudioPath: bank:/levels
-  lastModified: 638746181573235531
+  lastModified: 638746548266433163
   FileSizes:
   - Name: Desktop
-    Value: 7655968
+    Value: 11560256
   Exists: 1
 --- !u!114 &4861098903532656256
 MonoBehaviour:
@@ -446,7 +447,7 @@ MonoBehaviour:
   Path: Assets/Music/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638746107240199749
+  lastModified: 638746540159868039
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -532,3 +533,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &8467431579201574904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/SadEnd
+  m_EditorClassIdentifier: 
+  Path: event:/Music/SadEnd
+  Guid:
+    Data1: 1964546049
+    Data2: 1238585013
+    Data3: -1389491070
+    Data4: -801537387
+  Banks:
+  - {fileID: 3461119030164789506}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313920

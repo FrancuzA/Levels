@@ -2,26 +2,26 @@ using UnityEngine;
 
 public class GraveManager : MonoBehaviour
 {
-    public GameObject F; // Obiekt wskaŸnika "Naciœnij F"
-    public static bool isInRange; // Czy gracz jest w zasiêgu
-    private DziadController movePlayer; // Skrypt kontroluj¹cy ruch gracza
-    public GameObject Flowers; // Obiekt kwiatów do aktywacji
-    private bool hasInteracted = false; // Flaga, czy ju¿ dokonano interakcji
+    public GameObject F; // Obiekt wskaï¿½nika "Naciï¿½nij F"
+    public static bool isInRange; // Czy gracz jest w zasiï¿½gu
+    private DziadController movePlayer; // Skrypt kontrolujï¿½cy ruch gracza
+    public GameObject Flowers; // Obiekt kwiatï¿½w do aktywacji
+    private bool hasInteracted = false; // Flaga, czy juï¿½ dokonano interakcji
 
     private void Start()
     {
-        // ZnajdŸ gracza i jego skrypt ruchu
-        GameObject player = GameObject.FindGameObjectWithTag("Player"); // ZnajdŸ gracza po tagu
+        // Znajdï¿½ gracza i jego skrypt ruchu
+        GameObject player = GameObject.FindGameObjectWithTag("Player"); // Znajdï¿½ gracza po tagu
         if (player != null)
         {
             movePlayer = player.GetComponent<DziadController>(); // Pobierz skrypt ruchu gracza
         }
         else
         {
-            Debug.LogError("Gracz o tagu 'Player' nie zosta³ znaleziony!");
+            Debug.LogError("Gracz o tagu 'Player' nie zostaï¿½ znaleziony!");
         }
 
-        // Wy³¹cz pocz¹tkowo kwiaty
+        // Wyï¿½ï¿½cz poczï¿½tkowo kwiaty
         if (Flowers != null)
         {
             Flowers.SetActive(false);
@@ -36,24 +36,24 @@ public class GraveManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            F.SetActive(true); // Wyœwietl wskaŸnik "Naciœnij F"
+            F.SetActive(true); // Wyï¿½wietl wskaï¿½nik "Naciï¿½nij F"
         }
-        isInRange = true; // Gracz jest w zasiêgu
+        isInRange = true; // Gracz jest w zasiï¿½gu
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            F.SetActive(false); // Ukryj wskaŸnik "Naciœnij F"
+            F.SetActive(false); // Ukryj wskaï¿½nik "Naciï¿½nij F"
         }
-        isInRange = false; // Gracz opuszcza zasiêg
-        hasInteracted = false; // Reset flagi po opuszczeniu zasiêgu
+        isInRange = false; // Gracz opuszcza zasiï¿½g
+        hasInteracted = false; // Reset flagi po opuszczeniu zasiï¿½gu
     }
 
     private void Update()
     {
-        // Jeœli gracz naciska F, jest w zasiêgu i jeszcze nie dokona³ interakcji
+        // Jeï¿½li gracz naciska F, jest w zasiï¿½gu i jeszcze nie dokonaï¿½ interakcji
         if (Input.GetKeyDown(KeyCode.F) && isInRange && !hasInteracted)
         {
             if (movePlayer != null)
@@ -62,7 +62,7 @@ public class GraveManager : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Skrypt 'DziadController' nie zosta³ znalezione na graczu!");
+                Debug.LogError("Skrypt 'DziadController' nie zostaï¿½ znalezione na graczu!");
             }
 
             if (Flowers != null)
@@ -74,7 +74,7 @@ public class GraveManager : MonoBehaviour
                 Debug.LogError("Obiekt 'Flowers' nie jest przypisany!");
             }
 
-            // Ustaw flage, ¿e interakcja zosta³a wykonana
+            // Ustaw flage, ï¿½e interakcja zostaï¿½a wykonana
             hasInteracted = true;
         }
     }
