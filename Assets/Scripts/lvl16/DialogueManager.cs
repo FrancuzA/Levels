@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using FMODUnity;
+using FMOD.Studio;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -15,13 +17,23 @@ public class DialogueManager : MonoBehaviour
     private Dialogue currentDialogue;
     private int currentLineIndex = 0;
 
-    
+    public EventReference AngryReferance;
+    private EventInstance AngryInstance;
+    public EventReference NeutralReferance;
+    private EventInstance NeutralInstance;
+    public EventReference HappyReferance;
+    private EventInstance HappyInstance;
+
     [SerializeField] private float maxLove = 100f;
     [SerializeField] private float minLove = 0f;
 
     private float savedLoveValue; 
     private void Start()
     {
+
+        AngryInstance = RuntimeManager.CreateInstance(AngryReferance);
+        NeutralInstance = RuntimeManager.CreateInstance(NeutralReferance);
+        HappyInstance = RuntimeManager.CreateInstance(HappyReferance);
         if (dialoguePanel == null || dialogueText == null || optionButtons == null || loveMeter == null)
         {
             
@@ -97,7 +109,19 @@ public class DialogueManager : MonoBehaviour
             float oldValue = loveMeter.value;
             loveMeter.value += option.loveChange;
             loveMeter.value = Mathf.Clamp(loveMeter.value, minLove, maxLove);
-
+            switch (option.loveChange)
+            {
+                case -25:
+                    AngryInstance.start();
+                      break;
+                case 0:
+                    NeutralInstance.start();
+                    break;
+                case 25:
+                    HappyInstance.start();
+                    break;
+            }
+               
             
         }
        

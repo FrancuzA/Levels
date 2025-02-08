@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 65737655}
   - component: {fileID: 65737654}
   - component: {fileID: 65737653}
+  - component: {fileID: 65737657}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -222,6 +223,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &65737657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65737652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a291ace0b385e94db11f71dc3b2ea9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicReferance:
+    Guid:
+      Data1: 40097110
+      Data2: 1288102443
+      Data3: 962280090
+      Data4: -79742117
+    Path: event:/Music/MusicBaby
 --- !u!1 &221913126
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,8 +390,8 @@ GameObject:
   m_Component:
   - component: {fileID: 503107055}
   - component: {fileID: 503107054}
-  - component: {fileID: 503107053}
   - component: {fileID: 503107056}
+  - component: {fileID: 503107057}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -379,14 +399,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &503107053
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503107052}
-  m_Enabled: 1
 --- !u!20 &503107054
 Camera:
   m_ObjectHideFlags: 0
@@ -497,6 +509,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &503107057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503107052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &581866804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +1907,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
+  CrawlingReferance:
+    Guid:
+      Data1: -864191695
+      Data2: 1287293079
+      Data3: -580818535
+      Data4: 1083924344
+    Path: event:/Sounds/Baby Crawling
 --- !u!70 &1668714895
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

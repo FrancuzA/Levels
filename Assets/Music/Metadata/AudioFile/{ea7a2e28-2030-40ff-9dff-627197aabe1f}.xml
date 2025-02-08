@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ea7a2e28-2030-40ff-9dff-627197aabe1f}">
+		<property name="assetPath">
+			<value>WomanNeutral.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7119999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27d4189e-c73e-4a17-b77a-5011c40c1c51}</destination>
+		</relationship>
+	</object>
+</objects>

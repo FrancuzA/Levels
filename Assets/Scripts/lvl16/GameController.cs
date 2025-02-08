@@ -46,12 +46,12 @@ public class GameController : MonoBehaviour
 
         if (loveValue >= 100f)
         {
-            resultText.text = "Brawo! Alice siê z Tob¹ umówi³a!";
+            resultText.text = "Brawo! Alice siï¿½ z Tobï¿½ umï¿½wiï¿½a!";
             Invoke("LoadNextScene", 5f); 
         }
         else
         {
-            resultText.text = "Niestety, Alice nie chce siê z Tob¹ umawiaæ. Umrzesz w samotnoœci.";
+            resultText.text = "Niestety, Alice nie chce siï¿½ z Tobï¿½ umawiaï¿½. Umrzesz w samotnoï¿½ci.";
             Invoke("ResetLevel", 3f); 
         }
     }

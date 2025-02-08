@@ -571,6 +571,7 @@ GameObject:
   - component: {fileID: 441533441}
   - component: {fileID: 441533446}
   - component: {fileID: 441533445}
+  - component: {fileID: 441533447}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -760,8 +761,48 @@ MonoBehaviour:
   - {fileID: 1597403591}
   loveMeter: {fileID: 1623829934}
   gameController: {fileID: 441533445}
+  AngryReferance:
+    Guid:
+      Data1: 848527084
+      Data2: 1180107873
+      Data3: -1937387871
+      Data4: -1594434714
+    Path: event:/Sounds/WomanUnhappy
+  NeutralReferance:
+    Guid:
+      Data1: 1762731651
+      Data2: 1243788515
+      Data3: -2123584077
+      Data4: 1397170585
+    Path: event:/Sounds/Woman Neutral
+  HappyReferance:
+    Guid:
+      Data1: 1679602182
+      Data2: 1201428245
+      Data3: -1461717846
+      Data4: -1835457925
+    Path: event:/Sounds/WomanHappy
   maxLove: 100
   minLove: 0
+--- !u!114 &441533447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441533440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a291ace0b385e94db11f71dc3b2ea9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicReferance:
+    Guid:
+      Data1: 461179855
+      Data2: 1196028434
+      Data3: 604310452
+      Data4: 1526691186
+    Path: event:/Music/MusicRizzing
 --- !u!1 &638490654
 GameObject:
   m_ObjectHideFlags: 0

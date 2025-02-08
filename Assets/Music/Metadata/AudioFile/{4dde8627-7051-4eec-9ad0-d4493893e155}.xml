@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4dde8627-7051-4eec-9ad0-d4493893e155}">
+		<property name="assetPath">
+			<value>WomanAngry.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.1159183673469388</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27d4189e-c73e-4a17-b77a-5011c40c1c51}</destination>
+		</relationship>
+	</object>
+</objects>

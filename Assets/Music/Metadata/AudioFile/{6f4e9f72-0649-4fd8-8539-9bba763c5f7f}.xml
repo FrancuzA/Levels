@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6f4e9f72-0649-4fd8-8539-9bba763c5f7f}">
+		<property name="assetPath">
+			<value>BabyLvl.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>76.671999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{27d4189e-c73e-4a17-b77a-5011c40c1c51}</destination>
+		</relationship>
+	</object>
+</objects>
