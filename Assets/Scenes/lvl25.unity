@@ -221,8 +221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  minX: -0.5
-  maxX: 0.5
+  minX: -0.4
+  maxX: 0.65
 --- !u!1 &278041658
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d05c228b367744480195c66bad1612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StampPrefab: {fileID: 0}
+  StampPrefab: {fileID: 5040994867474407519, guid: dbba6f142180b5b479fb44872002834e, type: 3}
+  Paper: {fileID: 24838691}
   hand: {fileID: 278041660}
   stampPlace: {fileID: 1392879363}
   scoreText: {fileID: 340172413}
