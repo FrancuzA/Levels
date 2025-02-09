@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 156380751e75661449404cc8867ba88b
+guid: 4213274a2b2649a4c8b56e652a49db0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2623080175157492507
-    second: "wype\u0142nienie_0"
+      213: -1915776564401465818
+    second: Fish_0
+  - first:
+      213: -8217542319786499577
+    second: Fish_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "wype\u0142nienie_0"
+      name: Fish_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 45
-        width: 82
-        height: 11
+        x: 31
+        y: 4
+        width: 43
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1bb1a9858d076420800000000000000
-      internalID: 2623080175157492507
+      spriteID: 62615d96d5bc965e0800000000000000
+      internalID: -1915776564401465818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 86
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702e26e6ccc65fd80800000000000000
+      internalID: -8217542319786499577
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "wype\u0142nienie_0": 2623080175157492507
+      Fish_0: -1915776564401465818
+      Fish_1: -8217542319786499577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
