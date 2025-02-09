@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour
 {
     public DialogueManager dialogueManager; 
     public Dialogue flirtDialogue;
-    public Slider loveMeter; 
+    public GameObject LoveMeter;
+    public Image loveMeter; 
     public TMP_Text resultText; 
 
     private void Start()
@@ -30,7 +31,7 @@ public class GameController : MonoBehaviour
             dialogueManager.StartDialogue(flirtDialogue);
             dialogueManager.dialoguePanel.SetActive(true); 
         }
-
+        LoveMeter.SetActive(true);
     }
 
    
@@ -38,13 +39,13 @@ public class GameController : MonoBehaviour
     {
         if (loveMeter == null || resultText == null) return;
 
-        float loveValue = loveMeter.value;
+        float loveValue = loveMeter.fillAmount;
 
         
         resultText.alpha = 1.0f;
         resultText.gameObject.SetActive(true);
 
-        if (loveValue >= 100f)
+        if (loveValue >= 1f)
         {
             resultText.text = "Brawo! Alice się z Tobą umówiła!";
             Invoke("LoadNextScene", 5f); 
