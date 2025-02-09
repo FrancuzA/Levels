@@ -176,10 +176,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rozpocznij Rizzowanie
+  m_text: Rozpocznij rizzowanie
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 5.7865524, y: 1.2990056, z: 3.0310745, w: 2.598037}
+  m_margin: {x: 5.7865524, y: 1.9042083, z: 3.0310745, w: 2.598037}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -377,10 +377,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 10.316055, y: 5.1580048, z: 7.737068, w: 5.802803}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &376014945
@@ -598,60 +598,64 @@ MonoBehaviour:
     lines:
     - text: "Hej anon, chcesz wyj\u015B\u0107 na kawk\u0119?"
       options:
-      - text: Ocenisz siur?
+      - text: "Mama nie pozwala mi wychodzi\u0107 z obcymi"
         loveChange: -25
-      - text: Chodz dziunia na kebsa
+      - text: "Jasne, idziemy na jak\u0105\u015B kapuczyn\u0119"
         loveChange: 25
-      - text: "Papie\u017C Polak"
+      - text: "Wiesz, mam ju\u017C dzisiaj plany..."
         loveChange: 0
-    - text: "Mammon to m\xF3j ulubiony streamer"
+    - text: "Dobrze dzisiaj wygl\u0105dasz"
       options:
-      - text: "Jeba\u0107 w\xF3zkowego"
-        loveChange: -25
-      - text: mmm Mortadelcia
-        loveChange: 25
-      - text: "Papie\u017C Polak"
+      - text: "Yyyyy, dzi\u0119ki, chyba"
         loveChange: 0
-    - text: Jakie masz dzisiaj plany?
+      - text: "Specjalnie si\u0119 odwali\u0142em dla Ka\u015Bki"
+        loveChange: -25
+      - text: "Dzi\u0119kuj\u0119, Ty wygl\u0105dasz \u015Blicznie jak zwykle"
+        loveChange: 25
+    - text: "Robisz co\u015B w weekend?"
       options:
-      - text: "fortinajti babad\u017Ci"
+      - text: Ta, ligusia z moim discord Kitten
         loveChange: -25
-      - text: Mam w planie, ja ty i rybki
-        loveChange: 25
-      - text: "W planie si\u0119 dzisiaj zrzyga\u0107 a co?"
+      - text: Jada na ryby
         loveChange: 0
-    - text: "Zjad\u0142abym dobrego kebsiorka, ale takiego serio super"
+      - text: "Dla Ciebie zawsze znajd\u0119 chwilk\u0119, gdzie lecimy?"
+        loveChange: 25
+    - text: "Ostatnio do kin wszed\u0142 ten super film, idziemy?"
       options:
-      - text: "Kebaby s\u0105 do dupy"
-        loveChange: -25
-      - text: Kebab plus piwko to najlepsze combo
+      - text: "No pewnie, uwielbiam chodzi\u0107 z Tob\u0105 do kina"
         loveChange: 25
-      - text: "usi\u0105d\u017A mi na mordize pls"
+      - text: "Znowu chcesz mnie zabra\u0107 na jakie\u015B g\xF3wniane romansid\u0142o?"
+        loveChange: -25
+      - text: "Mo\u017Ce p\xF3jdziemy na Minecraft Movie zamiast tego?"
         loveChange: 0
-    - text: "Chcesz wypi\u0107 amaren\u0119 i zapali\u0107 papierosa bez akcyzy"
+    - text: "Hej, dosta\u0142am ostatnio zaproszenie na imprez\u0119 z osob\u0105
+        towarzysz\u0105c\u0105, chcia\u0142by\u015B p\xF3j\u015B\u0107 ze mn\u0105?"
       options:
-      - text: fuuu, papierosy i ten szczoch amarena?
-        loveChange: -25
-      - text: Jestem chmielowym samurajem
-        loveChange: 25
-      - text: GRILL U GAWRONA
+      - text: "Nie lubi\u0119 imprez"
         loveChange: 0
-    - text: "Chcesz pos\u0142ucha\u0107 razem muzyki dla rozwiedzionego ojca?"
+      - text: "Kolejny pow\xF3d \u017Ceby da\u0107 w palnik. KLASA"
+        loveChange: -25
+      - text: Pewnie, uwielbiam takie wieczory w Twoim towarzystwie
+        loveChange: 25
+    - text: "Ostatnio Pinkin Lark wyda\u0142o nowy album, mega mi si\u0119 podoba,
+        s\u0142ucha\u0142e\u015B?"
       options:
-      - text: "tylko \u0142ajcior"
+      - text: "Ale g\xF3wno, tylko \u0141AJCIOR"
         loveChange: -25
-      - text: "Zrzyga\u0142em si\u0119 harnasiem"
+      - text: "Jeszcze nie, chcesz ods\u0142ucha\u0107 tego razem?"
         loveChange: 25
-      - text: SKIBIDI TOILET GONI MNIE
+      - text: "Nie do ko\u0144ca m\xF3j klimat, wol\u0119 Gimpsona"
         loveChange: 0
-    - text: "Mi\u015Bka lubi czekoladke"
+    - text: "Hej, mam ogromn\u0105 pro\u015Bb\u0119, m\xF3g\u0142by\u015B zaj\u0105\u0107
+        si\u0119 moim psem przez weekend?"
       options:
-      - text: "MAM PI\u0104TY TELEFON W CI\u0104GU PI\u0118CIU MINUT"
-        loveChange: -25
-      - text: "Hej czy ty wiesz, \u017Ce ja si\u0119 w tobie kocham"
+      - text: "Jasne, przecie\u017C sama wiesz, jak kocham twojego psiaka"
         loveChange: 25
-      - text: ssij
+      - text: "Boj\u0119 si\u0119 ps\xF3w"
         loveChange: 0
+      - text: "Nie mam czasu na nia\u0144czenie jakiego\u015B kundla, id\u0119 na
+          kluby"
+        loveChange: -25
   loveMeter: {fileID: 1623829934}
   resultText: {fileID: 638490656}
 --- !u!114 &441533446
@@ -773,10 +777,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -807,8 +811,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -911,8 +915,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -936,7 +940,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -977,7 +981,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &896245835
@@ -1168,8 +1172,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1193,7 +1197,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1231,10 +1235,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 13.214409, y: 6.29261, z: 11.326698, w: 6.9218597}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1162439050
@@ -1439,7 +1443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.9622642, g: 0.35857958, b: 0.87076694, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1500,7 +1504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -224.32039, y: 182}
+  m_AnchoredPosition: {x: -224.32039, y: 170}
   m_SizeDelta: {x: -731.0579, y: -435.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1389234156
@@ -1572,7 +1576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8773585, g: 0.47592562, b: 0.8203442, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1744,7 +1748,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 255, y: 132}
-  m_SizeDelta: {x: -572.2589, y: -386.5005}
+  m_SizeDelta: {x: -572.26, y: -386.5005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505707899
 MonoBehaviour:
@@ -1887,8 +1891,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1953,7 +1957,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1555933377
@@ -2219,11 +2223,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.8679245, g: 0.118725546, b: 0.7336165, a: 1}
+    m_HighlightedColor: {r: 0.8773585, g: 0.38487893, b: 0.77523357, a: 1}
+    m_PressedColor: {r: 0.8773585, g: 0.22761661, b: 0.687032, a: 1}
+    m_SelectedColor: {r: 0.7830189, g: 0.24007656, b: 0.6687923, a: 1}
+    m_DisabledColor: {r: 0.8679245, g: 0.2988608, b: 0.75132835, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

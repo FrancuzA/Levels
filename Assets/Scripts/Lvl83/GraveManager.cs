@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GraveManager : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GraveManager : MonoBehaviour
     private DziadController movePlayer; // Skrypt kontroluj�cy ruch gracza
     public GameObject Flowers; // Obiekt kwiat�w do aktywacji
     private bool hasInteracted = false; // Flaga, czy ju� dokonano interakcji
+    public FadeAndRespawn fadeManager;
 
     private void Start()
     {
@@ -73,9 +75,11 @@ public class GraveManager : MonoBehaviour
             {
                 Debug.LogError("Obiekt 'Flowers' nie jest przypisany!");
             }
+            
 
             // Ustaw flage, �e interakcja zosta�a wykonana
             hasInteracted = true;
         }
     }
+    
 }

@@ -118,76 +118,7 @@ public class PlayerManager : MonoBehaviour
     // Ładowanie następnej sceny
     private void LoadNextScene()
     {
-        // Ukryj komunikat wygranej przed ładowaniem nowej sceny
-        if (winMessageText != null)
-        {
-            winMessageText.enabled = false;
-        }
-
-        // Pobierz bieżącą aktywną scenę
-        Scene currentScene = SceneManager.GetActiveScene();
-
-        // Sprawdź, czy nazwa sceny kończy się cyfrą
-        string currentSceneName = currentScene.name;
-        int currentSceneIndex;
-
-        if (int.TryParse(ExtractSceneNumber(currentSceneName), out currentSceneIndex))
-        {
-            // Oblicz indeks następnej sceny
-            int nextSceneIndex = currentSceneIndex + 1;
-
-            // Sprawdź, czy istnieje nastepna scena w Build Settings
-            if (nextSceneIndex <= SceneManager.sceneCountInBuildSettings - 1)
-            {
-                // Generuj nazwę następnej sceny
-                string nextSceneName = "Level" + nextSceneIndex;
-
-                // Sprawdź, czy scena istnieje w Build Settings
-                if (SceneExistsInBuildSettings(nextSceneName))
-                {
-                    Debug.Log($"Ładowanie następnej sceny: {nextSceneName}");
-                    SceneManager.LoadScene(nextSceneName);
-                }
-                else
-                {
-                    Debug.LogWarning($"Scena {nextSceneName} nie została znaleziona w Build Settings.");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("Brak następnej sceny! Kończę grę.");
-            }
-        }
-        else
-        {
-            Debug.LogError($"Nazwa aktualnej sceny ({currentSceneName}) nie pasuje do oczekiwanego formatu 'LevelX'.");
-        }
-    }
-
-    /// <summary>
-    /// Wyodrębnia numer sceny z jej nazwy (np. "Level3" → "3").
-    /// </summary>
-    private string ExtractSceneNumber(string sceneName)
-    {
-        // Usuń wszystkie znaki, które nie są cyframi
-        return new string(sceneName.Where(char.IsDigit).ToArray());
-    }
-
-    /// <summary>
-    /// Sprawdza, czy scena istnieje w Build Settings.
-    /// </summary>
-    private bool SceneExistsInBuildSettings(string sceneName)
-    {
-        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
-        {
-            string scenePath = SceneUtility.GetScenePathByBuildIndex(i);
-            string sceneFileName = System.IO.Path.GetFileNameWithoutExtension(scenePath);
-
-            if (sceneFileName == sceneName)
-            {
-                return true;
-            }
-        }
-        return false;
+       
+        SceneManager.LoadScene(6);
     }
 }
