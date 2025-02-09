@@ -555,11 +555,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1225060820 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 1581299869148167042}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1395024575
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,11 +634,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1396012024 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 1581299869148167042}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1620548849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,8 +1142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlacGround: {fileID: 179109839}
-  Tekst: {fileID: 1225060820}
-  LvlText: {fileID: 1396012024}
 --- !u!1001 &1581299869148167042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1290,8 +1278,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4994800783321920484, guid: 25b71a66df95c9e45b0e6e06b24df520, type: 3}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+    - {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
@@ -1303,6 +1309,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1852605745}
     m_Modifications:
+    - target: {fileID: 918924931425527206, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918924931425527206, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2623080175157492507, guid: 156380751e75661449404cc8867ba88b, type: 3}
     - target: {fileID: 1226055028116181721, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1383,9 +1397,77 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1390142573946776041, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840432707369166285, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840432707369166285, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840432707369166285, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840432707369166285, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870662034400124577, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870662034400124577, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2623080175157492507, guid: 156380751e75661449404cc8867ba88b, type: 3}
+    - target: {fileID: 4860177926667271311, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860177926667271311, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860177926667271311, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5499110949742995478, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
       propertyPath: m_Name
       value: ProgressBarw
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523256721478876014, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523256721478876014, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523256721478876014, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468849273876059254, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687013876777839177, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687013876777839177, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7715882078809488075, guid: 91308df65a9d7884a8e903261d0bcded, type: 3}
+    - target: {fileID: 8687013876777839177, guid: b038eba029f31a846b3193ba14597fbc, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

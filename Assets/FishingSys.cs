@@ -1,6 +1,8 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class FishingMechanic : MonoBehaviour
+public class FishingSys : MonoBehaviour
 {
     public float fillSpeed = 0.5f; // Szybkoœæ wype³niania paska
     public float maxFill = 1f; // Maksymalna wartoœæ paska
@@ -10,7 +12,7 @@ public class FishingMechanic : MonoBehaviour
     private bool isFishing = false;
     private float lastPressTime = 0f;
     
-    Animator animator;
+    public Animator animator;
     void Start()
     {
         if (fillBar == null)
@@ -21,11 +23,16 @@ public class FishingMechanic : MonoBehaviour
     }
     void Update()
     {
-        HandleFishing();
-        if(fillBar.fillAmount>=1f)
+        Debug.Log(fillBar.fillAmount);
+        if (fillBar.fillAmount >= 1f)
         {
+            Debug.Log("bar full");
             animator.SetTrigger("RYBA");
+            animator.SetBool("Ryba",true);
+            StartCoroutine(NextScene());
         }
+        HandleFishing();
+       
     }
     public void StartFishing()
     {
@@ -65,5 +72,11 @@ public class FishingMechanic : MonoBehaviour
         isFishing = false;
         currentFill = 0f;
         Debug.Log("Po³ow przerwany.");
+    }
+
+    IEnumerator NextScene()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(7);
     }
 }

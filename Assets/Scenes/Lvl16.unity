@@ -1015,24 +1015,32 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3480163703816832609, guid: 1c0914d2a2a734a438b1bdaebf9cebbe, type: 3}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+    - {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
 --- !u!224 &808905341 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2091431594797225853, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 808905340}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &808905342 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 808905340}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &808905343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
   m_PrefabInstance: {fileID: 808905340}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &808905344 stripped
@@ -1849,8 +1857,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlacGround: {fileID: 808905344}
-  Tekst: {fileID: 808905343}
-  LvlText: {fileID: 808905342}
 --- !u!1 &1238909602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,7 +1892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -39.500015, y: -1.9621582}
+  m_AnchoredPosition: {x: -195, y: -30}
   m_SizeDelta: {x: -617.4, y: -301.4301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238909604

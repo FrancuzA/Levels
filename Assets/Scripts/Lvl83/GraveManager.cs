@@ -9,6 +9,7 @@ public class GraveManager : MonoBehaviour
     public GameObject Flowers; // Obiekt kwiatów do aktywacji
     public FadeManager fadeManager; // Manager odpowiedzialny za efekt fade
     public GameObject nextObject; // Nowy obiekt do aktywacji po interakcji
+    public GameObject EndScreen;
 
     private bool hasInteracted = false; // Flaga, czy już dokonano interakcji
 
@@ -118,7 +119,13 @@ public class GraveManager : MonoBehaviour
             yield return new WaitForSeconds(fadeManager.fadeDuration); // Poczekaj na zakończenie fade-in
         }
 
+        yield return new WaitForSeconds(5);
+        EndScreen.SetActive(true);
+
+        yield return new WaitForSeconds(5);
+
+        Application.Quit();
         // Aktywuj nowy obiekt
-      
+
     }
 }

@@ -712,7 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829421064788359667, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2091431594797225853, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
       propertyPath: m_Pivot.x
@@ -838,24 +838,32 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6258200454185170781, guid: ed03bcda7645198439022a9d7569ec6f, type: 3}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+    - {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
 --- !u!224 &484667283 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2091431594797225853, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 484667282}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &484667284 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 484667282}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &484667285 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
   m_PrefabInstance: {fileID: 484667282}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &484667286 stripped
@@ -1020,8 +1028,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlacGround: {fileID: 484667286}
-  Tekst: {fileID: 484667285}
-  LvlText: {fileID: 484667284}
 --- !u!1 &581866804
 GameObject:
   m_ObjectHideFlags: 0

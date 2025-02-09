@@ -49,6 +49,9 @@ TagManager:
   - name: Flower
     uniqueID: 3640535319
     locked: 0
+  - name: Player
+    uniqueID: 400343411
+    locked: 0
   - name: Front
     uniqueID: 1475500053
     locked: 0

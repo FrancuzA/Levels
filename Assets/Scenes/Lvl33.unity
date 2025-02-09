@@ -362,11 +362,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157696902}
   m_CullTransparentMesh: 1
---- !u!1 &185882567 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 1694065601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &191404609
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,11 +859,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1 &536676467 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
-  m_PrefabInstance: {fileID: 1694065601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &902091330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,8 +1524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlacGround: {fileID: 1579763567}
-  Tekst: {fileID: 185882567}
-  LvlText: {fileID: 536676467}
 --- !u!1 &1553156604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,8 +1880,26 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 934189357326669392, guid: 7ab1fca62a54b744b975f5e14109f5ad, type: 3}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560971529584215252, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1343098928033895866, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
+    - {fileID: 5890862516123195871, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f1d4ed18240264f85921ca0fbf1c96, type: 3}
