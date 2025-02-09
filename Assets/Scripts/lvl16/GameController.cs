@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            resultText.text = "Niestety, Alice nie chce się z Tobą umawiać. Umrzesz w samotno�ci.";
+            resultText.text = "Niestety, Alice nie chce się z Tobą umawiać. Umrzesz w samotności.";
             Invoke("ResetLevel", 3f); 
         }
     }
