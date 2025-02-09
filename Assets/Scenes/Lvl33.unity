@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26e674f95b660b4db4c7e03e8e707b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 5
   cakePrefab: {fileID: 8777106803735649064, guid: 5bd62f7513cea1447a02053dc5abfe4e, type: 3}
   children:
   - {fileID: 191404612}

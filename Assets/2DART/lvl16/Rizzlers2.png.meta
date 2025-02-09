@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rizzlers2_0: -4618119290356654626
+      Rizzlers2_1: 6297531851164938039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

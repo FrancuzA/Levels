@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialoguePanel; 
     public TMP_Text dialogueText; 
     public Button[] optionButtons; 
-    public Slider loveMeter; 
+    public Image loveMeter; 
     public GameController gameController;
     
     
@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     public EventReference HappyReferance;
     private EventInstance HappyInstance;
 
-    [SerializeField] private float maxLove = 100f;
+    [SerializeField] private float maxLove = 1f;
     [SerializeField] private float minLove = 0f;
 
     private float savedLoveValue; 
@@ -63,7 +63,7 @@ public class DialogueManager : MonoBehaviour
         if (loveMeter != null)
         {
             loveMeter.gameObject.SetActive(true); 
-            loveMeter.value = 0; 
+            loveMeter.fillAmount = 0; 
         }
 
         ShowNextLine();
@@ -104,27 +104,21 @@ public class DialogueManager : MonoBehaviour
     
     private void SelectOption(DialogueOption option)
     {
-        if (loveMeter != null && loveMeter.gameObject.activeSelf)
-        {
-            float oldValue = loveMeter.value;
-            loveMeter.value += option.loveChange;
-            loveMeter.value = Mathf.Clamp(loveMeter.value, minLove, maxLove);
+            float oldValue = loveMeter.fillAmount;
+            loveMeter.fillAmount += option.loveChange;
             switch (option.loveChange)
             {
-                case -25:
+                
+                case -0.25f:
                     AngryInstance.start();
                       break;
                 case 0:
                     NeutralInstance.start();
                     break;
-                case 25:
+                case 0.25f:
                     HappyInstance.start();
                     break;
             }
-               
-            
-        }
-       
 
         currentLineIndex++;
         ShowNextLine();
@@ -147,7 +141,7 @@ public class DialogueManager : MonoBehaviour
         
         if (loveMeter != null)
         {
-            savedLoveValue = loveMeter.value;
+            savedLoveValue = loveMeter.fillAmount;
             loveMeter.gameObject.SetActive(false); 
         }
 

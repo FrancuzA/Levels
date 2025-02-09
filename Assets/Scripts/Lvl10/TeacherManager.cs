@@ -16,8 +16,7 @@ public class Teacher : MonoBehaviour
     public float signalDuration = 1f; 
 
     [Header("Cheating System")]
-    public Slider cheatingProgressSlider; 
-    public Image warningCounter; 
+    public Image cheatingProgressSlider; 
     public Sprite[] warningSprites; 
     public TextMeshProUGUI gameOverText; 
 
@@ -64,12 +63,12 @@ public class Teacher : MonoBehaviour
         
         if (playerIsCheating && !isChecking)
         {
-            cheatingProgressSlider.value += Time.deltaTime * 0.04f; 
-            cheatingProgressSlider.value = Mathf.Clamp(cheatingProgressSlider.value, 0f, cheatingProgressSlider.maxValue); 
+            cheatingProgressSlider.fillAmount += Time.deltaTime * 0.04f; 
+            cheatingProgressSlider.fillAmount = Mathf.Clamp(cheatingProgressSlider.fillAmount, 0f, 1); 
         }
 
         
-        if (cheatingProgressSlider.value >= cheatingProgressSlider.maxValue)
+        if (cheatingProgressSlider.fillAmount >= 1)
         {
             WinGame(); 
         }
@@ -113,10 +112,6 @@ public class Teacher : MonoBehaviour
     
     private void UpdateWarningCounter()
     {
-        if (warningSprites.Length > warnings)
-        {
-            warningCounter.sprite = warningSprites[warnings];
-        }
     }
 
    
