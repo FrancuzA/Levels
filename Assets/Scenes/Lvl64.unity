@@ -129,8 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 219817370}
   - component: {fileID: 219817369}
-  - component: {fileID: 219817368}
   - component: {fileID: 219817371}
+  - component: {fileID: 219817372}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -138,14 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &219817368
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219817367}
-  m_Enabled: 1
 --- !u!20 &219817369
 Camera:
   m_ObjectHideFlags: 0
@@ -256,6 +248,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &219817372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219817367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &604613639
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +275,7 @@ GameObject:
   - component: {fileID: 604613641}
   - component: {fileID: 604613640}
   - component: {fileID: 604613644}
+  - component: {fileID: 604613645}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -374,6 +381,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlacGround: {fileID: 1722030514}
+--- !u!114 &604613645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604613639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a291ace0b385e94db11f71dc3b2ea9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicReferance:
+    Guid:
+      Data1: -665852813
+      Data2: 1085294031
+      Data3: 1815115919
+      Data4: 32418064
+    Path: event:/Music/lake vene
 --- !u!1 &677118631
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +476,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1475500053
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8c65a08a81c6f4046863b6b91b405b1a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
