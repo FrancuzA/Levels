@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d8bc61cdb5712de4cb89f6bac0834107
+guid: 156380751e75661449404cc8867ba88b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3846198584414830307
-    second: "\u0142ebek1_0"
+      213: 2623080175157492507
+    second: "wype\u0142nienie_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0142ebek1_0"
+      name: "wype\u0142nienie_0"
       rect:
         serializedVersion: 2
-        x: 37
-        y: 28
-        width: 13
-        height: 13
+        x: 10
+        y: 45
+        width: 82
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eef7a70c31706530800000000000000
-      internalID: 3846198584414830307
+      spriteID: b1bb1a9858d076420800000000000000
+      internalID: 2623080175157492507
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "\u0142ebek1_0": 3846198584414830307
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

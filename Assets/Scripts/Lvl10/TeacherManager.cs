@@ -125,7 +125,7 @@ public class Teacher : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.enabled = true; 
-            gameOverText.text = "PRZEGRA�E�!"; 
+            gameOverText.text = "PRZEGRAŁEŚ!"; 
         }
 
        
@@ -149,7 +149,7 @@ public class Teacher : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.enabled = true;
-            gameOverText.text = "WYGRA�E�!";
+            gameOverText.text = "WYGRAŁEŚ!";
         }
 
        
